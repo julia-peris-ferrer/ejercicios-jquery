@@ -1,0 +1,25 @@
+#banner{
+    background-color: red;
+    width: 450px;
+    height: 300px;
+    position: absolute; /*Para que rompa el flujo y aparezca flotando*/
+    left: 400px;
+    top: 50px;
+    font-size: 36px;
+    text-align: center;
+}
+
+img{
+    float: left;
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+}
+
+.texto {
+    float: left; /*Para que los textos aparezcan uno al lado del otro*/
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+    font-size: 36px;
+}  
